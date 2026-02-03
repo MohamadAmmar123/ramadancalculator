@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Booking Price Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,8 +26,11 @@
         <option value="yes">UUM Staff / Student</option>
     </select>
 
-    <label>Booking Date</label>
-    <input type="date" id="date">
+    <label>Early Bird Booking</label>
+    <select id="early">
+        <option value="no">No</option>
+        <option value="yes">Yes (10% discount)</option>
+    </select>
 
     <button onclick="calculatePrice()">Calculate</button>
 
